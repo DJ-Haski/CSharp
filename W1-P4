@@ -1,0 +1,13 @@
+public class Solution {
+    public bool ArrayStringsAreEqual(string[] word1, string[] word2) {
+        var w1 = "";
+        var w2 = "";
+        foreach (var word in word1){
+            w1 += word;
+        }
+        foreach (var word in word2){
+            w2 += word;
+        }
+        return w1 == w2;
+    }
+}
